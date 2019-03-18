@@ -119,6 +119,7 @@ window.UserVoice = {
 
   function u(t) {
    var o = e.createElement("div");
+   console.log('uswidg-prettier.js function u() fired')
    o.addClass('xxxxyyyyyy');
    return o.innerHTML = t, e.body.appendChild(o.firstChild), e.body.lastChild
   }
